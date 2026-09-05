@@ -11,28 +11,28 @@
 class Brokkr < Formula
   desc "Delivery engine that drives agent seats through a reviewable phase machine"
   homepage "https://github.com/feedback-loop-ai/brokkr"
-  version "0.8.0" # brokkr-version
+  version "0.9.0" # brokkr-version
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/feedback-loop-ai/brokkr/releases/download/v#{version}/brokkr-macos-arm64.tar.gz"
-      sha256 "0f36ab31354cd8d2df0e25a8b39f042c7764ee174487e08f84fc2a63625744dd" # brokkr-macos-arm64.tar.gz
+      sha256 "5b5a8fd620432cb62d2f2485b533b9ddfe75896a9a2200cdf1b6490bb5b63598" # brokkr-macos-arm64.tar.gz
     end
     on_intel do
       url "https://github.com/feedback-loop-ai/brokkr/releases/download/v#{version}/brokkr-macos-x86_64.tar.gz"
-      sha256 "45d78e2302f123414e7f3c54263f1e3880ce2befff73056b20e656e5663614a4" # brokkr-macos-x86_64.tar.gz
+      sha256 "fa17bdf847f07fb6252ed643ced30169e60ccc3db896243a6bea98ab4696d284" # brokkr-macos-x86_64.tar.gz
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/feedback-loop-ai/brokkr/releases/download/v#{version}/brokkr-linux-aarch64.tar.gz"
-      sha256 "b987f849af07dccd10d9c3cd11f1c2b59302a58b5c420fcc2ee2610dfdb5358c" # brokkr-linux-aarch64.tar.gz
+      sha256 "a186ae738a3d4f834e57df3f0e084f1a3cd6a5ae624de098823d982679b3dc4a" # brokkr-linux-aarch64.tar.gz
     end
     on_intel do
       url "https://github.com/feedback-loop-ai/brokkr/releases/download/v#{version}/brokkr-linux-x86_64.tar.gz"
-      sha256 "ffd38b09f269c712baffe286fc00c2ceb77267f57e36dd94caf72276a37d8ba9" # brokkr-linux-x86_64.tar.gz
+      sha256 "f7f9862dc4e5c3f2864cbac9084050d521331a40698e4741c8616bef709e0b5c" # brokkr-linux-x86_64.tar.gz
     end
   end
 
